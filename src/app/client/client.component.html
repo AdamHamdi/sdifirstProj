@@ -1,0 +1,34 @@
+<div class="container-fluid bg-light mt-4">
+  <div class="row">
+    <div class="col-md-6">
+
+      <mat-card class="example-card">
+        <div class="row w-100">
+          <div class="col-md-6" style="border-right: 1px solid lightgray;">
+            <div class=" image text-center">
+              <img src="../../assets/img/image5.jpg" alt="" width="100" height="100" style="border-radius: 100%;">
+              <button mat-mini-fab color="white" mat-icon-button [matMenuTriggerFor]="menu"
+                aria-label="Example icon button with a delete icon">
+                <mat-icon>camera_alt</mat-icon>
+                <mat-menu #menu="matMenu">
+                  <button mat-menu-item disabled>
+                    <mat-icon>edit</mat-icon>
+                    <span>Edit picture</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>delete</mat-icon>
+                    <span>Remove picture</span>
+                  </button>
+                </mat-menu>
+              </button>
+            </div>
+            <h3 class="text-center mt-4">David BERNARD</h3>
+            <h4 class="text-center  text-secondary">david_bernard@gmail.com</h4>
+          </div>
+          <div class="col-md-6"></div>
+        </div>
+
+      </mat-card>
+    </div>
+  </div>
+</div>
