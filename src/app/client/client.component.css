@@ -1,24 +1,105 @@
-mat-card{
-  margin:10px 0;
-  border-radius: 10px;
-}
-.image img {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  border-style: solid;
-  border-color: #FFFFFF;
-  box-shadow: 0 0 8px 3px #B8B8B8;
-}
-.image{
-  position: relative;
-}
-.image
-{
-  position: relative;
-}
-.image button{
-  position: absolute;
-  right:50px;
- top:80px;
-}
+/* .container-parent {
+            margin: 20% auto;
+        } */
+
+        mat-card {
+          margin: 10px 0;
+          border-radius: 20px;
+      }
+
+      .avatar {
+          position: relative;
+          width: 200px;
+          height: 150px;
+          margin: auto;
+      }
+
+      .avatar .btn {
+          position: absolute;
+          top: 80px;
+          right: 45px;
+          width: 20px;
+          height: 20px;
+          /* border: 3px solid #73AD21; */
+      }
+      /* .avatar .btn {
+        position: absolute;
+        top: 0;
+        right: 40px;
+        width: 20px;
+        height: 20px;
+
+    } */
+
+      .avatar img {
+          width: 140px;
+          height: 140px;
+          border-radius: 50%;
+          border-style: solid;
+          border-color: #FFFFFF;
+          box-shadow: 0 0 8px 3px #B8B8B8;
+      }
+
+      .mat-slider {
+          width: 100%;
+      }
+
+      .content {
+          width: 100%;
+          height: fit-content;
+          background-color: rgb(234, 238, 242);
+          border-radius: 20px;
+      }
+
+      mat-list-item {
+          position: relative;
+          display: flex;
+          height: 20px;
+          flex-direction: row;
+      }
+
+      mat-list-item p {
+          float: left;
+      }
+
+      mat-list-item .btn {
+          position: absolute;
+          right: 0;
+      }
+
+      mat-list mat-paginator {
+          width: 100%;
+          font-size: 10px;
+      }
+
+      .text-small {
+          font-size: 14px;
+      }
+
+      .filter {
+          border-radius: 20px;
+          border: 1px solid green;
+          width: fit-content;
+          margin: 2px 10px;
+          overflow: hidden;
+          height: 87px;
+
+          background-color: white;
+          filter: blur(1px);
+          display: flex;
+      }
+
+      .filter div {
+          display: flex;
+          overflow: hidden;
+          flex-direction: column;
+          justify-items: flex-end;
+          margin: 0px 10px;
+      }
+
+      mat-form-field mat-datepicker-toggle {
+        width: 5px;
+      }
+      table {
+        width: 100%;
+      }
